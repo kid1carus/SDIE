@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# [IMPORTANT INFO]
+# IMPORTANT INFO
 
 If you have an A5-A11 device, open 'A5-A11.exe'
 
@@ -23,7 +23,7 @@ You may need to exit or enter recovery To do so, open the 'Tools' folder and run
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# [BACKGROUND INFO]
+# BACKGROUND INFO
 What is SHSH Device Info Extractor? It's a three-click program that extracts device information such as UDID, ECID, APNONCE, and BoardConfiguration and saves them in a text file to use for SHSH blobs.
 
 •Fully working on all A5-A12(X) devices running iOS 9.0-12.4.1
