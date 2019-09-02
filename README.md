@@ -14,7 +14,7 @@ open the 'Tools' folder and run the file you need [MAKE SURE YOUR DEVICE IS CONN
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[BACKGROUND INFO]
+# [BACKGROUND INFO]
 What is SHSH Device Info Extractor? It's a three-click program that extracts device information such as UDID, ECID, APNONCE, and BoardConfiguration and saves them in a text file to use for SHSH blobs.
 • Fully working on all A5-A12(X) devices running iOS 9.0-12.4.1
 • Based on libimobiledevice
