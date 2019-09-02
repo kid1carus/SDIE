@@ -9,8 +9,8 @@ Saving SHSH blobs does not require setting a nonce generator. Setting a nonce ge
 you need a jailbreak. Currently, the latest jailbreak for all A7-A11 devices running iOS 12.0-12.4 is Unc0ver. The latest jailbreak that's A12(X) compatible is Chimera, which works
 for all A7-A12(X) devices running iOS 12.0-12.1.2)
 
-IN CASE OF EMERGENCY: you may need to exit or enter recovery. To do so,
-open the 'Tools' folder and run the file you need [MAKE SURE YOUR DEVICE IS CONNECTED TO YOUR COMPUTER BEFORE OPENING FILE]
+# IN CASE OF EMERGENCY: 
+You may need to exit or enter recovery To do so, open the 'Tools' folder and run the file you need [MAKE SURE YOUR DEVICE IS CONNECTED TO YOUR COMPUTER BEFORE OPENING FILE]
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
