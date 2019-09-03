@@ -1,5 +1,5 @@
 @echo off
-title A12/A12X Blob Saver
+title A12-A12X Blob Saver
 color 0a
 cd src
 set udid=ideviceinfo
