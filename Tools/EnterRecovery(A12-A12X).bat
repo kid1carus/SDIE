@@ -1,5 +1,5 @@
 @echo off
-title A12/A12X Blob Saver
+title Enter Recovery (A12-A12X)
 color 0a
 cd..
 cd src
