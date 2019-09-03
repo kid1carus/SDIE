@@ -6,7 +6,7 @@
 
 If you have an A5-A11 device, open 'A5-A11.exe'
 
-If you have an A12 or A12X device, open 'A12(X).exe'
+If you have an A12 or A12X device, open 'A12-A12X.exe'
 
 If you are UNSURE what device you have, visit https://bit.ly/2kepwpD
 
