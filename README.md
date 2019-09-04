@@ -10,7 +10,7 @@ If you have an A12 or A12X device, open 'A12-A12X.exe'
 
 If you are UNSURE what device you have, visit https://bit.ly/2kepwpD
 
-This is only for WINDOWS. No macOS/Linux support yet.
+This is only for WINDOWS 10. No Windows 7/Windows 8/macOS/Linux support yet.
 
 Saving SHSH blobs does not require setting a nonce generator. Setting a nonce generator is only needed for the actual upgrade/downgrade process. (To set a nonce generator
 you need a jailbreak. Currently, the latest jailbreak for all A7-A11 devices running iOS 12.0-12.4 is Unc0ver. The latest jailbreak that's A12(X) compatible is Chimera, which works
