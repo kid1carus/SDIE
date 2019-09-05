@@ -20,10 +20,10 @@ set nonc=irecovery -q
 %nonc%
 findstr /R NONC: nonc.txt > noncoutput.txt
 )
-@echo This program was made by Laith Ayoub (aka FutureFlash). To view source code visit: https://github.com/laithayoub71/shsh> credit.txt
+@echo This program was made by Laith Ayoub (aka FutureFlash). To view source code visit: https://github.com/laithayoub71/SDIE> credit.txt
 @echo IMPORTANT INFO: The The UniqueDeviceID is the UDID. The UniqueChipID is the ECID. The NONC is the APNONCE. The HardwareModel is> keys.txt
-@echo IMPORTANT INFO: (continued) the BoardConfiguration. The ProductType is the Model Identifier> keys2.txt
-@echo IMPORTANT INFO: (continued): The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)"> hex.txt
+@echo the BoardConfiguration. The ProductType is the Model Identifier> keys2.txt
+@echo IMPORTANT INFO: The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)"> hex.txt
 type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A12X-Output.txt
 clip < A5-A12X-Output.txt
 del udid.txt
