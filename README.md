@@ -4,7 +4,7 @@
 
 # IMPORTANT INFO
 
-If you have an A5-A12X device, open 'A5-A12X.bat'
+If you have an A5-A12X device, open 'SDIE.bat'
 
 If you are UNSURE what device you have, visit https://bit.ly/2kepwpD
 
