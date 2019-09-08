@@ -39,7 +39,7 @@ del boardconfig.txt
 del identifier.txt
 del A5-A12X-Output.txt
 cd..
-powershell -command "Get-Clipboard" > A5-A12X-Output.txt
+paste > A5-A12X-Output.txt
 echo off | clip
 cd src
 irecovery -n
