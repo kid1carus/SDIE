@@ -43,5 +43,5 @@ paste > A5-A13-Output.txt
 echo off | clip
 cd src
 irecovery -n
-echo A5-A12X EXTRACTION SUCCESS! Extracted values are saved in A5-A13-Output.txt. Press any key on your keyboard to exit this program! 
+echo A5-A13 EXTRACTION SUCCESS! Extracted values are saved in A5-A13-Output.txt. Press any key on your keyboard to exit this program! 
 pause >nul
