@@ -1,5 +1,5 @@
 @echo off
-title A5-A12X Blob Saver by FutureFlash
+title A5-A13 Blob Saver by FutureFlash
 color 0a
 cd src
 set udid=ideviceinfo
@@ -24,8 +24,8 @@ findstr /R NONC: nonc.txt > noncoutput.txt
 @echo IMPORTANT INFO: The The UniqueDeviceID is the UDID. The UniqueChipID is the ECID. The NONC is the APNONCE. The HardwareModel is> keys.txt
 @echo the BoardConfiguration. The ProductType is the Model Identifier> keys2.txt
 @echo IMPORTANT INFO: The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)"> hex.txt
-type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A12X-Output.txt
-clip < A5-A12X-Output.txt
+type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A13-Output.txt
+clip < A5-A13-Output.txt
 del udid.txt
 del udidoutput.txt
 del nonc.txt
@@ -37,11 +37,11 @@ del keys.txt
 del keys2.txt
 del boardconfig.txt
 del identifier.txt
-del A5-A12X-Output.txt
+del A5-A13-Output.txt
 cd..
-paste > A5-A12X-Output.txt
+paste > A5-A13-Output.txt
 echo off | clip
 cd src
 irecovery -n
-echo A5-A12X EXTRACTION SUCCESS! Extracted values are saved in A5-A12X-Output.txt. Press any key on your keyboard to exit this program! 
+echo A5-A12X EXTRACTION SUCCESS! Extracted values are saved in A5-A13-Output.txt. Press any key on your keyboard to exit this program! 
 pause >nul
