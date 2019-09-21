@@ -1,5 +1,5 @@
 @echo off
-title ENTER Recovery (A5-A13)
+title ENTER Recovery (A5-A13) by FutureFlash
 color 0a
 cd..
 cd src
