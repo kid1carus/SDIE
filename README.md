@@ -25,7 +25,7 @@ You may need to exit or enter recovery. To do so, open the 'Tools' folder and ru
 
 SDIE is a three-click batch file that extracts device information such as UDID, ECID, APNONCE, Mobile Identifier, and Board Configuration and saves them in a text file to use for SHSH blobs.
 
-•Fully working on all A5-A12(X) devices running iOS 9.0-13.0
+•Fully working on all A5-A13 devices running iOS 9.0-13.0
 
 •Based on libimobiledevice: https://bit.ly/2IHQDmo
 
