@@ -1,0 +1,7 @@
+#! /bin/sh
+# This script was created by FutureFlash on 9/30/2019. View source code at https://github.com/laithayoub71/SDIE
+
+cd ..
+cd src
+irecovery -n
+exit

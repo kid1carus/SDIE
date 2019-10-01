@@ -1,0 +1,13 @@
+#! /bin/sh
+# This script was created by FutureFlash on 9/30/2019. View source code at https://github.com/laithayoub71/SDIE
+
+cd ..
+cd src
+ideviceinfo > info.txt
+grep -n "UniqueDeviceID:" info.txt > info2.txt
+tail -c +20 info2.txt > udidoutput.txt
+pbcopy < udidoutput.txt
+udid=$(pbpaste)
+ideviceenterrecovery $udid
+find . -name "*.txt" -type f -delete
+exit

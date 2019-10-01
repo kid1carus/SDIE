@@ -1,0 +1,24 @@
+[IMPORTANT INFO AND INSTRUCTIONS]
+This program was made by Laith Ayoub (aka FutureFlash). To view source code visit: https://github.com/laithayoub71/SDIE
+Video Tutorial (Windows): https://youtu.be/75NUX6ravBM
+Video Tutorial (macOS): coming soon!
+
+If you have an A5-A13 device open a Terminal window and cd into this directory and run: ./sdie
+If you are UNSURE what device you have, visit https://bit.ly/2kepwpD
+
+IN CASE OF EMERGENCY: you may need to exit or enter recovery. To do so, cd into the 'Tools' folder and run: ./enterrecovery or ./exitrecovery [MAKE SURE YOUR DEVICE IS CONNECTED TO YOUR COMPUTER BEFORE OPENING FILE]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[BACKGROUND INFO]
+
+What is SDIE? 
+SDIE (SHSH Info Extractor) is a three-click batch file that extracts device information such as UDID, ECID, APNONCE, Model Identifier, and Board Configuration for saving SHSH blobs.
+• Fully working on all A5-A13 devices running iOS 9.0-13.1.2
+• Based on libimobiledevice
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[CREDITS/LINKS]
+
+• libimobiledevice: https://bit.ly/2IHQDmo
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UPDATE 1.7 RELEASE NOTES:
+•Added macOS support!
+•Added iOS 13 and A13 chip support
