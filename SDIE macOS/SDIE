@@ -1,0 +1,36 @@
+#! /bin/sh
+# This script was created by FutureFlash on 9/30/2019. View source code at https://github.com/laithayoub71/SDIE
+
+cd src
+ideviceinfo > info.txt
+grep -n "UniqueDeviceID:" info.txt > info2.txt
+tail -c +20 info2.txt > udidoutput.txt
+grep -n "UniqueDeviceID:" info.txt > udid.txt
+tail -c +4 info2.txt > udid2.txt
+grep -n "UniqueChipID:" info.txt > info3.txt
+tail -c +4 info3.txt > ecidoutput.txt
+grep -n "ProductType:" info.txt > info4.txt
+tail -c +4 info4.txt > identifier.txt
+grep -n "HardwareModel:" info.txt > info5.txt
+tail -c +4 info5.txt > boardconfig.txt
+pbcopy < udidoutput.txt
+udid=$(pbpaste)
+ideviceenterrecovery $udid
+read -p "WAIT for device to enter recovery, then click Enter on your keyboard"
+irecovery -q > nonc.txt
+grep -n "NONC:" nonc.txt > nonc2.txt
+tail -c +4 nonc2.txt > noncoutput.txt
+echo 'This program was made by Laith Ayoub (aka FutureFlash). To view source code visit: https://github.com/laithayoub71/SDIE' > credit.txt
+echo 'IMPORTANT INFO: The The UniqueDeviceID is the UDID. The UniqueChipID is the ECID. The NONC is the APNONCE. The HardwareModel is the BoardConfiguration' > keys.txt
+echo 'The ProductType is the Model Identifier' > keys2.txt
+echo 'IMPORTANT INFO: The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)" ' > hex.txt
+cat credit.txt keys.txt keys2.txt udid2.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A13-Output.txt
+pbcopy < A5-A13-Output.txt
+find . -name "*.txt" -type f -delete
+cd ..
+pbpaste > A5-A13-Output.txt
+pbcopy < /dev/null
+cd src
+irecovery -n
+read -p "EXTRACTION SUCCESS! Extracted values are saved in A5-A13-Output.txt. Press Enter on your keyboard to exit this program!"
+exit
