@@ -11,7 +11,7 @@ IN CASE OF EMERGENCY: you may need to exit or enter recovery. To do so, cd into 
 [BACKGROUND INFO]
 
 What is SDIE? 
-SDIE (SHSH Info Extractor) is a three-click batch file that extracts device information such as UDID, ECID, APNONCE, Model Identifier, and Board Configuration for saving SHSH blobs.
+SDIE (SHSH Info Extractor) is a three-click script that extracts device information such as UDID, ECID, APNONCE, Model Identifier, and Board Configuration for saving SHSH blobs.
 • Fully working on all A5-A13 devices running iOS 9.0-13.1.2
 • Based on libimobiledevice
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
