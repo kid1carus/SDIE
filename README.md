@@ -12,6 +12,8 @@ Compatible with Windows Vista and newer (even Windows 10) and macOS.
 
 This program only extracts the information needed to save blobs and doesn't require a jailbreak, however, saving SHSH blobs REQUIRES setting a nonce generator, which does require a jailbreak. And keep in mind, this program does NOT save blobs. Again, it only extracts the information needed to do so.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Video Tutorial (Windows): https://youtu.be/75NUX6ravBM
 
 Video Tutorial (macOS): https://youtu.be/DL1MyWPSMRQ
