@@ -24,18 +24,7 @@ findstr /R NONC: nonc.txt > noncoutput.txt
 @echo IMPORTANT INFO: The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)"> hex.txt
 type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A13-Output.txt
 clip < A5-A13-Output.txt
-del udid.txt
-del udidoutput.txt
-del nonc.txt
-del noncoutput.txt
-del ecidoutput.txt
-del credit.txt
-del hex.txt
-del keys.txt
-del keys2.txt
-del boardconfig.txt
-del identifier.txt
-del A5-A13-Output.txt
+del /q /f *.txt
 cd..
 cd SILENT
 paste > A5-A13-Output.txt
