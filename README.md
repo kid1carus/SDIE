@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# IMPORTANT INFO
+# IMPORTANT INFO AND INSTRUCTIONS
 
 This is for all A5-13 devices running iOS 9.0-13.1.2 and any future iOS versions.
 
@@ -12,9 +12,12 @@ Compatible with Windows Vista and newer (even Windows 10) and macOS.
 
 This program only extracts the information needed to save blobs and doesn't require a jailbreak, however, saving SHSH blobs REQUIRES setting a nonce generator, which does require a jailbreak. And keep in mind, this program does NOT save blobs. Again, it only extracts the information needed to do so.
 
+Video Tutorial (Windows): https://youtu.be/75NUX6ravBM
+Video Tutorial (macOS): https://youtu.be/DL1MyWPSMRQ
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# BACKGROUND INFO
+# BACKGROUND INFO AND CREDITS
 ## What is this? 
 
 SDIE is a three-click batch file for Windows and/or a shell script for macOS that extracts device information such as UDID, ECID, APNONCE, Mobile Identifier, and Board Configuration and saves them in a text file to use for SHSH blobs.
