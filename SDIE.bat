@@ -1,7 +1,9 @@
-@echo off & title A5-A13 Blob Saver by FutureFlash & color 0a & cd src
-set udid=ideviceinfo && %udid% > udid.txt
+@echo off & title A5-A13 Blob Saver by FutureFlash & color 0a && cd src
+set udid=ideviceinfo 
+%udid% > udid.txt
 findstr /R UniqueDeviceID: udid.txt > udidoutput.txt & findstr /R UniqueChipID: udid.txt > ecidoutput.txt & findstr /R UniqueChipID: udid.txt > ecidoutput.txt & findstr /R ProductType: udid.txt > identifier.txt & findstr /R HardwareModel: udid.txt > boardconfig.txt
-set /p udid1=<udidoutput.txt && set udidresult=%udid1:~16,40%
+set /p udid1=<udidoutput.txt
+set udidresult=%udid1:~16,40%
 ideviceenterrecovery %udidresult%
 echo Wait for device to ENTER RECOVERY, then press any key on your keyboard & pause >nul
 set nonc=irecovery -q
