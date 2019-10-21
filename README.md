@@ -14,9 +14,9 @@ This program only extracts the information needed to save blobs and doesn't requ
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Video Tutorial (Windows): https://youtu.be/75NUX6ravBM
+### Video Tutorial (Windows): https://youtu.be/75NUX6ravBM
 
-Video Tutorial (macOS): https://youtu.be/DL1MyWPSMRQ
+### Video Tutorial (macOS): https://youtu.be/DL1MyWPSMRQ
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
