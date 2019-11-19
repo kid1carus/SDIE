@@ -4,7 +4,7 @@
 
 # IMPORTANT INFO AND INSTRUCTIONS
 
-This is for all A5-13 devices running iOS 9.0-13.1.2 and any future iOS versions.
+This is for all A5-13 devices running iOS 9.0-13.2.3 and any future iOS versions.
 
 If you are UNSURE what device you have, visit https://bit.ly/2kepwpD
 
